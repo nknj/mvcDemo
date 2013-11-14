@@ -15,6 +15,6 @@
         <p>
             Your password is <%=u.getPassword()%>, oops!
         </p>
-        Click <a href="/home">here</a> to go back to Home.
+        Click <a href="/">here</a> to go back to Home.
     </body>
 </html>
