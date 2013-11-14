@@ -29,6 +29,9 @@ public class UserManager {
             String content = br.readLine();
             if (content != null) {
                 String[] tokens = content.split(" ");
+                if (tokens.length != 2) {
+                    return null;
+                }
                 String username = tokens[0];
                 String password = tokens[1];
                 return new User(username, password);
